@@ -157,23 +157,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702231320345_InitialCreate.cs" />
-    <Compile Include="Migrations\201702231320345_InitialCreate.Designer.cs">
+    <Compile Include="Models\Migrations\201702231320345_InitialCreate.cs" />
+    <Compile Include="Models\Migrations\201702231320345_InitialCreate.Designer.cs">
       <DependentUpon>201702231320345_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702231357378_2.cs" />
-    <Compile Include="Migrations\201702231357378_2.Designer.cs">
+    <Compile Include="Models\Migrations\201702231357378_2.cs" />
+    <Compile Include="Models\Migrations\201702231357378_2.Designer.cs">
       <DependentUpon>201702231357378_2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702231358587_5.cs" />
-    <Compile Include="Migrations\201702231358587_5.Designer.cs">
+    <Compile Include="Models\Migrations\201702231358587_5.cs" />
+    <Compile Include="Models\Migrations\201702231358587_5.Designer.cs">
       <DependentUpon>201702231358587_5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702231418446_88.cs" />
-    <Compile Include="Migrations\201702231418446_88.Designer.cs">
+    <Compile Include="Models\Migrations\201702231418446_88.cs" />
+    <Compile Include="Models\Migrations\201702231418446_88.Designer.cs">
       <DependentUpon>201702231418446_88.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Migrations\Configuration.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\BookingApiContext.cs" />
     <Compile Include="Models\User.cs" />
@@ -236,16 +236,16 @@
     <Content Include="Views\Bookings\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201702231320345_InitialCreate.resx">
+    <EmbeddedResource Include="Models\Migrations\201702231320345_InitialCreate.resx">
       <DependentUpon>201702231320345_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702231357378_2.resx">
+    <EmbeddedResource Include="Models\Migrations\201702231357378_2.resx">
       <DependentUpon>201702231357378_2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702231358587_5.resx">
+    <EmbeddedResource Include="Models\Migrations\201702231358587_5.resx">
       <DependentUpon>201702231358587_5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702231418446_88.resx">
+    <EmbeddedResource Include="Models\Migrations\201702231418446_88.resx">
       <DependentUpon>201702231418446_88.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
